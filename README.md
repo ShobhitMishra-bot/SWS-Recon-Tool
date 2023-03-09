@@ -41,7 +41,7 @@ git clone https://github.com/ShobhitMishra-bot/SWS-Recon-Tool.git
 cd SWS-Recon-Tool
 python3 -m pip3 install -r requirements.txt
 ```
-## Usage
+## ⏳Usage
 
 ```bash
 python3 SWS-Recon.py -h
