@@ -4,7 +4,7 @@
 SWS-Recon is a Python Tool designed to performed Reconnaissance on the given target website- `Domain` or `SubDomain`. SWS-Recon collects information such as DNS Information, Sub Domains, HoneySpot Detected, Subdomain takeovers, Reconnaissance On Github and much more.
 
 ## 💥 Main Features
-```
+
 :heavy_check_mark: Perform a Whois lookup.
 
 :heavy_check_mark: Search for useful DNS information.
@@ -34,7 +34,7 @@ SWS-Recon is a Python Tool designed to performed Reconnaissance on the given tar
 :heavy_check_mark: Search for git repos.
 
 :heavy_check_mark: Search for employees emails.
-```
+
 ## ⚡ Installation
 ```
 ~> git clone https://github.com/ShobhitMishra-bot/SWS-Recon-Tool.git
