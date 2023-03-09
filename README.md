@@ -1,7 +1,7 @@
 # SWS Recon Tool	
 <p align="center">
-    <img src="https://github.com/ShobhitMishra-bot/SWS-Recon-Tool
-/blob/master/src/logo.png" alt="SWS" width="400">
+    <img src="[https://github.com/ShobhitMishra-bot/SWS-Recon-Tool
+/blob/master/src/logo.png](https://raw.githubusercontent.com/ShobhitMishra-bot/SWS-Recon-Tool/master/src/logo.png?token=GHSAT0AAAAAAB7ZJ6Q4JFULFZ2ALWNLW5WAZAJY7QQ)" alt="SWS" width="400">
 </p>
 ##  📌 Introduction
 SWS-Recon is a Python Tool designed to performed Reconnaissance on the given target website- `Domain` or `SubDomain`. SWS-Recon collects information such as Google Dork, DNS Information, Sub Domains, PortScan, Subdomain takeovers, Reconnaissance On Github and much more vulnerability scan.
