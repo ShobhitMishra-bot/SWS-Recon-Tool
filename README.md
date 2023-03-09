@@ -46,7 +46,7 @@ SWS-Recon is a Python Tool designed to performed Reconnaissance on the given tar
 ```bash
 python3 SWS-Recon.py -h
 ```
-Help display as -
+Help display as and guide to use other tool features-
 ```
     SWS RECON TOOL
 
