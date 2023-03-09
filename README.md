@@ -41,6 +41,74 @@ SWS-Recon is a Python Tool designed to performed Reconnaissance on the given tar
 ~> cd SWS-Recon-Tool
 ~> python3 -m pip3 install -r requirements.txt
 ```
+## Usage
+
+```bash
+python3 SWS-Recon.py -h
+```
+Help display as -
+```
+    SWS RECON TOOL
+
+⠀⠀⠀⠀⠀⠀⠀⠀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢠⣾⠿⠟⠛⠳⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠋⠁⢀⠀⢔⣤⡼⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⢠⣤⣾⡶⠻⠛⢁⣨⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠉⠉⣀⡴⠆⠂⢐⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣑⠀⢲⡈⠀⢄⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⢀⣀⣤⣶⣿⡆⠰⠤⢂⠀⢸⣷⣤⣤⣀⡀⠀⠀⠀
+⠀⢠⣾⣿⣿⣿⣿⣿⣇⠀⣾⡗⠀⢸⣿⣿⣿⣿⣿⣷⡀⠀
+⠀⣼⣿⣿⣿⣿⣿⣿⣿⠐⣿⣿⠀⢸⣿⣿⣿⣿⣿⣿⣧⠀
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⡌⣿⣿⠀⣸⣿⣿⣿⣿⣿⣿⣿⡆
+⢸⣿⣿⣿⣿⣿⣿⣿⣿⣇⢻⡟⠀⣿⣿⣿⣿⣿⣿⣿⣿⡇
+⠈⠋⠙⠉⠋⠙⠉⠋⠙⠉⠈⠃⠀⠉⠋⠙⠉⠋⠙⠉⠋⠁⠀⠀⠀⠀
+
+      by SecureWithShobhit!
+Follow Me On ;)
+Github: https://github.com/ShobhitMishra-bot
+LinkedIn: https://www.linkedin.com/in/shobhitmishra-learner
+          
+usage: SWS-Recon.py [-h] [-d DOMAIN] [-o] [-A] [--whois] [-D] [--spoof] [-a]
+                    [--dork] [-s] [-p] [--subtake] [--ssl] [-jl] [-t] [-c]
+                    [-b] [-w] [-r] [--email [EMAIL]] [--threads THREADS] [-V]
+
+SWS Recon Tool
+
+options:
+  -h, --help            show this help message and exit
+  -d DOMAIN, --domain DOMAIN
+                        Domain to start recon
+  -o, --output          Save a directory containing Markdown file with recon
+                        report.
+  -A, --all             Permorm all options at once, except -s and -o (which
+                        can be added manually)
+  --whois               Perform a Whois lookup.
+  -D, --dns             Look for some DNS information
+  --spoof               Check if domain can be spoofed based on SPF and DMARC
+                        records
+  -a, --axfr            Try a domain zone transfer attack
+  --dork                Try some dorks
+  -s, --subdomains      Do a search for any subdomain registered
+  -p, --portscan        Simple portscan and banner grabbing on top 100 ports
+                        (makes a huge noise on the network).
+  --subtake             Check for subdomain takeover vulnerability
+  --ssl                 Extract information from SSL Certificate.
+  -jl, --js-links       Try do find endpoints and parameters in JavaScript
+                        files.
+  -t, --tech            Try to discover technologies in the page
+  -c, --cors            Try to find CORS misconfigurations
+  -b, --backups         Try to find some commom backup files in the page. This
+                        option works better with -s enabled.
+  -w, --waf             Try to detect WAF on the page.
+  -r, --repos           Try to discover valid repositories of the domain. This
+                        option works better with -s enabled.
+  --email [EMAIL]       Try to find some emails from symem.info. Max 50
+                        emails.
+  --threads THREADS     Threads (default 5)
+  -V, --version         Show the version
+```
+
+
 ## ❤️ Contribution
 You can contribute in following ways:
 
