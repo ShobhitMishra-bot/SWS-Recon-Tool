@@ -1,6 +1,6 @@
 # SWS Recon Tool	
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ShobhitMishra-bot/SWS-Recon-Tool/master/src/logo.png?token=GHSAT0AAAAAAB7ZJ6Q4JFULFZ2ALWNLW5WAZAJY7QQ" alt="SWS" width="400">
+  <img src="https://raw.githubusercontent.com/ShobhitMishra-bot/SWS-Recon-Tool/master/src/logo.png?token=GHSAT0AAAAAAB7ZJ6Q4JFULFZ2ALWNLW5WAZAJY7QQ" alt="SWS" >
 </p>
 
 ##  📌 Introduction
