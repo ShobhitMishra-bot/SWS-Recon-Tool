@@ -1,0 +1,7 @@
+from colorama import Fore
+
+RESET = Fore.RESET
+YELLOW = Fore.LIGHTYELLOW_EX
+GREEN = Fore.LIGHTGREEN_EX
+RED = Fore.LIGHTRED_EX
+BLUE = Fore.LIGHTBLUE_EX
